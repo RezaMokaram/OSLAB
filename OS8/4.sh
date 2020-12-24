@@ -1,2 +1,3 @@
 ip address
-ip add
+ip addr
+ip a
