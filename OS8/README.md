@@ -14,3 +14,4 @@ uptime command shows :
 3-The number of logged-in users
 4-System load averages for the past 1, 5, and 15 minutes
 # Q4
+ip address or ip addr or ip a command used to display and modify protocol addresses
