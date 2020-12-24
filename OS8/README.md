@@ -8,5 +8,9 @@ you need to do this only once if you pass the --global option, because then Git 
 du -sh command shows directory memory usage
 du -sh ./* command shows us directory memory usage separated
 # Q3
-
+uptime command shows :
+1-The current system time
+2-The length of time the system has been up
+3-The number of logged-in users
+4-System load averages for the past 1, 5, and 15 minutes
 # Q4
