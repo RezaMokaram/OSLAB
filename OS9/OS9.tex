@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{amsmath}
+
+\title{OSLab Home Work 9}
+\author{Reza Mokaram}
+\date{December 2020}
+
+\begin{document}
+
+\maketitle
+
+\section*{Text and Picture}
+       Boats have served as transportation since the earliest times.[1] Circumstantial evidence, such as the early settlement of Australia over 40,000 years ago.
+
+  \begin{center}
+  \includegraphics[width=\linewidth]{boat.jpg}
+  \caption{A boat.}
+  \end{center}
+  
+  
+  \section*{Table}
+  
+  \begin{table}[h!]
+  \begin{center}
+    \caption{ 3 * 3}
+    \label{tab:table}
+    \begin{tabular}{l|c|r}
+      \textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+      $\alpha$ & $\beta$ & $\gamma$ \\
+      \hline
+      1 & 11 & a\\
+      2 & 12.1 & b\\
+      3 & 13.044 & a*b\\
+    \end{tabular}
+  \end{center}
+\end{table}
+
+
+\section*{Formulas}
+
+\begin{equation*}
+  x_t = 1/2 * a * t^2 + v_0 * t + x_0
+\end{equation*}
+
+\begin{equation*}
+    v_t = a * t + v_0
+\end{equation*}
+
+\begin{equation*}
+    a_t = a
+\end{equation*}
+
+
+\section*{Code}
+\begin{lstlisting}
+
+        #include "iostream"
+        //
+        using namespace std;
+        //
+        int main()
+        {
+            int b,n,p=1;
+            cin >> b >> n;
+            for(int i = 0; i<n ; i++)
+                p*=b;
+            cout <<" b ^ n = " << p << endl;
+        }
+
+    \end{lstlisting}
+\end{document}
