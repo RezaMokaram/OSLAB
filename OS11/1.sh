@@ -1,5 +1,5 @@
 echo "first number X second number"
-echo "Please Insert Your Operator:"
+echo "Please Insert Your Operator(+,-,*,/):"
 read sine
 echo "Please insert first number"
 read num1
@@ -11,7 +11,7 @@ then
 elif [ $sine = "-" ]
 then
     echo $(($num1 - $num2))
-elif [ $sine = "x" ]
+elif [ $sine = "*" ]
 then
     echo $(($num1 * $num2))
 elif [ $sine = "/" ]
